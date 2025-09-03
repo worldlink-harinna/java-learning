@@ -5,7 +5,7 @@ public class MainClass{
 
         VehicleFactory twoWheelerFactory = new TwoWheelerFactory();
         Client twoWheelerCLient  = new Client(twoWheelerFactory);
-        TwoWheeler twoWheeler = twoWheelerCLient.getVehicle();
+        Vehicle twoWheeler = twoWheelerCLient.getVehicle();
         twoWheeler.printVehicle();
 
     }
