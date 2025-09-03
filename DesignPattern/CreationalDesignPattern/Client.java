@@ -1,6 +1,6 @@
 public class Client{
     private Vehicle vehicle;
-    public client(VechicleFactory vehicleFactory){
+    public Client(VehicleFactory vehicleFactory){
         vehicle = vehicleFactory.vehicleCreator();
     }
 

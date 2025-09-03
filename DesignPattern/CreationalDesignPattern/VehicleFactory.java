@@ -1,4 +1,4 @@
-public interface VechicleFactory{
+public interface VehicleFactory{
 
     public Vehicle vehicleCreator();
 }
